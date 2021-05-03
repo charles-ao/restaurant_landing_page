@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Restaurant Landing Page">
+    <meta name="author" content="Adedunmola Adeiye">
+    <title>Restaurant Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/Logo.png" alt="" id="figo" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item  mx-2">
+                    <a class="nav-link" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Service</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item mx-2 navbar-brand">
+                    <img src="images/cart-logo.svg" alt="" width="40" height="15">
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div id="home" class="container-fluid mt-5" >
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 herohead1">
+                        <div class='heading'>
+                        <h1>All in Good Taste Food With Figo.</h1>
+                        <p>Quickly predominate standard complaint architecture
+                            and may have prospective internal or organic sources
+                        </p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control me-3" placeholder="Enter Your Address">
+                            <button class="btn btn-md btn-primary">Get Started</button>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 herohead2">
+                        <img src="images/herohead-image-one.png" alt="" width="500" height="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="explore" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="images/herohead-image-two.png" alt="" width="450" height="450">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Welcome</h3>
+                        <h2>Welcome to Figo Restaurant</h2>
+                        <p>Quickly predominate standards complaints architecture 
+                            prospective internal or organic sources. Synergistically mesh
+                            quality qualityvectors dor one-to-ont leadership. <br> <br>
+                            Quickly predominate standards complaints architecture 
+                            prospective internal or organic sources. Synergistically mesh
+                            quality qualityvectors dor one-to-ont leadership.
+                        </p>
+                        <button class="btn btn-md btn-primary">Explore Our Story</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="reason" class="container-fluid">
+            <div class="sub-header">
+                <h3>Reason</h3>
+                <h4>Why Choose Us?</h4>
+            </div>
+
+            <div class="row reason-list">
+                <div class="col-lg-4">
+                    <div class="card text-center mb-3">
+                        <div class="card-body">
+                            <img class="my-4" src="/images/reason-icon-one.svg" alt="" width="50px">
+                            <h5>Various Menus</h5>
+                            <p>Etiam feugiat eleifend est,odio tempor vitaeVivamus maximus
+                                scelerisque ipsum nec commodo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center mb-3">
+                        <div class="card-body ">
+                            <img class="my-4" src="/images/reason-icon-two.svg" alt="" width="50px">
+                            <h5>Pocket Friendly Delivery</h5>
+                            <p>Etiam feugiat eleifend est,odio tempor vitaeVivamus maximus
+                                scelerisque ipsum nec commodo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img class="my-4" src="/images/reason-icon-three.svg" alt="" width="50px">
+                            <h5>Best Offers</h5>
+                            <p>Etiam feugiat eleifend est,odio tempor vitaeVivamus maximus
+                                scelerisque ipsum nec commodo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="browse" class="container-fluid">
+            <div class="sub-header">
+                <h3>Browse</h3>
+                <h4>Explore Our Menu</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 menu">
+                    <div class="menu-item active-menu" data-id="breakfast"><p>Breakfast</p></div>
+                    <div class="menu-item" data-id="lunch"><p>Lunch</p></div>
+                    <div class="menu-item" data-id="dinner"><p>Dinner</p></div>
+                    <div class="menu-item" data-id="desert"><p>Desert</p></div>
+                    <div class="menu-item" data-id="drinks"><p>Drinks</p></div>
+                </div>
+                <div class="col-lg-9 slide-show">
+                     <div class="slide">
+                        <div class="img-con">
+                            <img src="images/food-image-one.png" alt="">
+                            <div class="middle">
+                                <div>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Chicken Massala</h5>
+                        <p>$100<span id="deci">99</span></p>
+                    </div>
+                    <div class="slide">
+                        <div class="img-con">
+                            <img src="images/food-image-two.png" alt="">
+                            <div class="middle">
+                                <div>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Western Sunrise</h5>
+                        <p>$100<span id="deci">99</span></p>
+                    </div>
+                    <div class="slide">
+                        <div class="img-con">
+                            <img src="images/food-image-three.png" alt="">
+                            <div class="middle">
+                                <div>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Sandwich Soup</h5>
+                        <p>$100<span id="deci">99</span></p>
+                    </div>
+                    <div class="slide">
+                        <div class="img-con">
+                            <img src="images/food-image-three.png" alt="">
+                            <div class="middle">
+                                <div>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Sandwich Soup</h5>
+                        <p>$100<span id="deci">99</span></p>
+                    </div>
+                </div>
+                <div class="btn-cont">
+                    <button class="btn btn-primary nextBtn"><i class="fas fa-arrow-left"></i></button>
+                    <button class="btn btn-primary prevBtn"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="history" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>History of Figo</h3>
+                        <h2>We Cook Tradition & Family Tradition</h2>
+                        <p>Quickly predominate standards complaints architecture 
+                            prospective internal or organic sources. Synergistically mesh
+                            quality qualityvectors dor one-to-ont leadership. <br> <br>
+                            Quickly predominate standards complaints architecture 
+                            prospective internal or organic sources. Synergistically mesh
+                            quality qualityvectors dor one-to-ont leadership.
+                        </p>
+                        <button class="btn btn-md btn-primary">Explore Our Story</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/herohead-image-three.png" alt="" width="450" height="450">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="review" class="container-fluid">
+            <div class="sub-header">
+                <h3>Testimonials</h3>
+                <h4>Food Lover's Say</h4>
+            </div>
+            <div class="reviews-container">
+                <div class="review-item" id="r-01">
+                    <div class="review-content">
+                        <div class="content">
+                            <p>Relax and do whatever fits with your design process.
+                                Dont set a lot of restrictive hard-and-fast rules 
+                                your design process.
+                            </p>
+                        </div>
+                        <div class="square"></div>
+                    </div>
+                    <div class="person mt-4">
+                        <img src="images/review-one.png" alt="">
+                        <div class="person-detail mt-2">
+                            <h5 class="mb-0">Theodore Handle</h5>
+                            <p>Design Lead @ Shopify</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item" id="r-02">
+                    <div class="review-content">
+                        <div class="content">
+                            <p>Relax and do whatever fits with your design process.
+                                Dont set a lot of restrictive hard-and-fast rules 
+                                your design process.
+                            </p>
+                        </div>
+                        <div class="square"></div>
+                    </div>
+                    <div class="person mt-4">
+                        <img src="images/review-two.png" alt="">
+                        <div class="person-detail mt-2">
+                            <h5 class="mb-0">Felix Messi</h5>
+                            <p>Sports Director @ Wyoming fc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item" id="r-03">
+                    <div class="review-content">
+                        <div class="content">
+                            <p>Relax and do whatever fits with your design process.
+                                Dont set a lot of restrictive hard-and-fast rules 
+                                your design process.
+                            </p>
+                        </div>
+                        <div class="square"></div>
+                    </div>
+                    <div class="person mt-4">
+                        <img src="images/review-three.png" alt="">
+                        <div class="person-detail mt-2">
+                            <h5 class="mb-0">Naomi Hunt</h5>
+                            <p>HR Manager @ OLX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item" id="r-04">
+                    <div class="review-content">
+                        <div class="content">
+                            <p>Relax and do whatever fits with your design process.
+                                Dont set a lot of restrictive hard-and-fast rules 
+                                your design process.
+                            </p>
+                        </div>
+                        <div class="square"></div>
+                    </div>
+                    <div class="person mt-4">
+                        <img src="images/review-four.png" alt="">
+                        <div class="person-detail mt-2">
+                            <h5 class="mb-0">Susan Coast</h5>
+                            <p>Developer @ Apple</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="news" class="container-fluid">
+            <div class="sub-header">
+                <h3>News</h3>
+                <h4>Latest News</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/latestnews-one.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Spain Appetizer</h5>
+                          <p class="card-text">Quickly of predominate and standards complaints and an architecture.</p>
+                          <a href="#" class="reason-link">Read More</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/latestnews-two.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Wine and Cheese</h5>
+                          <p class="card-text">Quickly of predominate and standards complaints and an architecture.</p>
+                          <a href="#" class="reason-link">Read More</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/latestnews-three.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cups of Coffee</h5>
+                          <p class="card-text">Quickly of predominate and standards complaints and an architecture.</p>
+                          <a href="#" class="reason-link">Read More</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div id="subs" class="container-fluid">
+            <div class="sub-header">
+                <h3>Subscription</h3>
+                <h4>Want to Get Updates?</h4>
+            </div>
+            <div class="email-cont">
+                <input type="email" placeholder="Enter Your Email address"  name="" id=""><button class="btn btn-primary"><i class="fas fa-arrow-right"></i></button></input>
+            </div>
+        </div>
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/Logo.png" alt="" style="width: 60px;">
+                    <p>Dont miss out of our latest discounts and new feeds. follow us today!</p>
+                    <div class="button-contain">
+                        <button class="btn btn-primary m-1 p-2"><i class="fab fa-facebook"></i></button>
+                        <button class="btn btn-primary m-1 p-2"><i class="fab fa-twitter"></i></button>
+                        <button class="btn btn-primary m-1 p-2"><i class="fab fa-whatsapp"></i></button>
+                        <button class="btn btn-primary m-1 p-2"><i class="fab fa-pinterest"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h5>Our Menu</h5>
+                    <p>Lunch</p>
+                    <p>Dinner</p>
+                    <p>Catering</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Links</h5>
+                    <p>About Us</p>
+                    <p>Terms of Use</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Contact</h5>
+                    <p>info@restaurant.com</p>
+                    <p>+80122345677</p>
+                    <p>Abuja, Nigeria</p>
+                </div>
+            </div>           
+        </div>
+        <div class="foot">
+            <p class="my-0">Developed by <strong>Adedunmola</strong>, <span id="year"></span>.</p>
+        </div>
+
+        <img src="images/leaf-one.png" id="l-01" class="leaf" alt="">
+        <img src="images/leaf-one.png" id="l-02" class="leaf" alt="">
+        <img src="images/leaf-two.png" id="l-03" class="leaf" alt="">
+        <img src="images/leaf-two.png" id="l-04" class="leaf" alt="">
+        <img src="images/leaf-one.png" id="l-05" class="leaf" alt="">
+        <img src="images/leaf-one.png" id="l-06" class="leaf" alt="">
+        <img src="images/leaf-two.png" id="l-07" class="leaf" alt="">
+        <img src="images/leaf-three.png" id="l-08" class="leaf" alt="">
+        <img src="images/leaf-four.png" id="l-09"class="leaf"  alt="">
+        <!-- UI Design Credit: S.M Sowkot -->
+
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
